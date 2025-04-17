@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Stopwatch</title>
+		<link rel="stylesheet" href="./stopwatch.css" />
+		<link rel="icon" href="./assets/images/icons/stopwatch.svg" />
+	</head>
+		<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<meta name="description" content="Track time with this useful stopwatch!" />
+		<meta name="keywords" content="stopwatch, watch, timer, time, clock">
+		<meta name="author" content="Дима Ш.">
+
+		<link rel="icon" type="image/svg" href="./assets/images/icons/stopwatch-icon.svg">
+
+		<link rel="stylesheet" href="./stopwatch.css"> 
+	</head>
+
+	<body>
+		<div class="title-container">
+			<h1 class="title">Stopwatch</h1>
+			<img alt="Stopwatch icon" src="./assets/images/icons/stopwatch.svg" class="icon" />
+		</div>
+		<p class="time js-time">000ms</p>
+		<div class="button-container">
+			<button class="go-button js-go-button">Go (G)</button>
+			<button class="add-lap-button js-add-lap-button">Add Lap (A)</button>
+			<button class="reset-button js-reset-button">Reset (R)</button>
+		</div>
+		<div class="confirmation-container js-confirmation-container"></div>
+		<div class="laps-list-wrapper">
+			<ol class="laps-list js-lap-list"></ol>
+		</div>
+	</body>
+
+	<div class="footer">
+		<p class="footer-text">&copy; 2023 <a href="https://shdima.gitlab.io/" target="_blank" class="author">Дима Ш.</a> &centerdot; <a href="https://gitlab.com/-/p/76793610" target="_blank">Source code</a></p>
+	</div>
+
+	<script src="./stopwatch.js"></script>
+</html>

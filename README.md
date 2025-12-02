@@ -13,6 +13,13 @@ Features
 - The time is stored in the local storage
 - Ability to add laps
 
+Links
+-----
+
+* [Website](https://sh-dima.github.io/stopwatch/)
+* [GitLab](https://gitlab.com/shdima/stopwatch)
+* [GitHub](https://github.com/sh-dima/stopwatch)
+
 License
 -------
 
